@@ -1,0 +1,53 @@
+<!--hom.wxml-->
+<view class="container">
+  <view>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image style='width:100%' src="{{item}}"class="slide-image"  height="100" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  
+  <view style='height:50px;bankground:#e6e6e6;'>
+    <label style="margin-top:5rpx">服务项目</label>
+  </view>
+  <view wx:for="{{array}}">
+    <view class="appView">
+      <view style=' border:0.5px solid #e6e6e6;height:100%;width:100%'>
+        <view>
+          <image style="width:48rpx;height:48rpx;margin-top:5rpx;" src='https://gitdocument.exmobi.cn/agile-vm/docs/demo/assets/img/main/cwcx.png'></image>
+        </view>
+        <label> {{item.message}}</label>
+      </view>
+    </view>
+  </view>
+
+</view>
+  
+<!-- <view class='footer' style="float:left">
+
+  <view style='width:25%;bankground:#ededed;float:left;text-align:center;'>
+    <view style='width:100%;'>
+      <image style="width:48rpx;height:48rpx;margin-top:5rpx; " src='https://gitdocument.exmobi.cn/agile-vm/docs/demo/assets/img/main/cwcx.png'></image>
+    </view>
+    <label style='text-align:center;width:100%;margin-bottom:10rpx;'>频道1</label>
+  </view>
+  <view style='width:25%;bankground:#ededed;float:left;text-align:center;'>
+    <view style='width:100%;'>
+      <image style="width:48rpx;height:48rpx;margin-top:5rpx; " src='https://gitdocument.exmobi.cn/agile-vm/docs/demo/assets/img/main/cwcx.png'></image>
+    </view>
+    <label style='text-align:center;width:100%;margin-bottom:10rpx;'>频道2</label>
+  </view><view style='width:25%;bankground:#ededed;float:left;text-align:center;'>
+    <view style='width:100%;'>
+      <image style="width:48rpx;height:48rpx;margin-top:5rpx; " src='https://gitdocument.exmobi.cn/agile-vm/docs/demo/assets/img/main/cwcx.png'></image>
+    </view>
+    <label style='text-align:center;width:100%;margin-bottom:10rpx;'>频道3</label>
+  </view><view style='width:25%;bankground:#ededed;float:left;text-align:center;'>
+    <view style='width:100%;'>
+      <image style="width:48rpx;height:48rpx;margin-top:5rpx; " src='https://gitdocument.exmobi.cn/agile-vm/docs/demo/assets/img/main/cwcx.png'></image>
+    </view>
+    <label style='text-align:center;width:100%;margin-bottom:10rpx;'>频道4</label>
+  </view>
+</view> -->
