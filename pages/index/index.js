@@ -34,12 +34,23 @@ Page({
       }
       ],
       
-    imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+    imgData: [
+     {
+        "img": 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+        "id":"1"
+      }, {
+        "img": 'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+        "id": "2"
+
+     }, {
+        "img": 'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg',
+        "id": "3"
+
+     } 
+      
+      
     ],
-    indicatorDots: false,
+    indicatorDots: true,
     autoplay: true,
     interval: 5000,
     duration: 1000
@@ -61,7 +72,9 @@ Page({
       success: function (res) {
         console.log(res.data)
       }
-    })
+    });
+
+     
   },
   onReady: function () {
     // Do something when page ready.
@@ -93,6 +106,21 @@ Page({
       text: 'Set some data for updating view.'
     }, function () {
       // this is setData callback
+    })
+  },
+  onSwiperTap:function(event){
+    var id = event.target.dataset.id;
+    console.log("----"+id)
+  
+    wx.navigateTo({
+      url: 'www.baidu.com',
+    })
+  },
+  appTap:function(event){
+    console.log("====");
+    wx.navigateTo({
+      url: "detail"
+
     })
   },
   customData: {

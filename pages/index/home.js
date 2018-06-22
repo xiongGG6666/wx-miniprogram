@@ -1,10 +1,10 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
 Page({
   data: {
-    motto: '测试哟',
+    motto: "",
+    phone:"",
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -19,6 +19,25 @@ Page({
     // wx.navigateTo({
     //   url: '../index/home'
     // })
+    var superThis = this;
+    wx.request({
+      url: 'https://www.groooy.com/small//user/userInfo', //仅为示例，并非真实的接口地址
+      data: {
+        x: '',
+        y: ''
+      },
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: function (res) {
+        console.log("userInfo>res:");
+        console.log(res.data)
+        superThis.setData({
+          motto: res.data.data.username,
+          phone: res.data.data.phone
+        }) ;
+      }
+    });
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
