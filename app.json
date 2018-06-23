@@ -25,6 +25,12 @@
         "selectedIconPath": "img/home-sel.png"
       },
       {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "img/shopCar.png",
+        "selectedIconPath": "img/shopCar-sel.png"
+      },
+      {
         "pagePath": "pages/index/home",
         "text": "我的",
         "iconPath": "img/my.png",
