@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    id:''
   },
 
   /**
@@ -14,8 +14,11 @@ Page({
   onLoad: function (options) {
     console.log(options);
     var id = options.id;
+    this.setData({
+      id:id
+    });
     wx.showToast({
-      title: '成功' + id,
+      title: '获取到的id=' + id,
       icon: 'success',
       duration: 2000
     })
