@@ -1,0 +1,87 @@
+/* pages/index/shopIndex.wxss */
+.searchBar{
+  margin-left: 2%;
+  width:96%;
+  background-color: #eee;
+  border-radius:10rpx;
+  height: 60rpx
+}
+.searchIcon{
+  margin: 18rpx 10rpx 22rpx 40rpx;
+  overflow: hidden;
+}
+.searchBar input{
+  margin-left: 80rpx;
+  margin-top: -78rpx;
+  font-size: 26rpx;
+}
+#storeInfo{
+  height: 200rpx;
+  overflow: hidden;
+}
+#storeIcon{
+  margin: 0rpx;
+  float: left;
+  position: absolute;
+  width: 20%;  
+  height: 200rpx;
+  overflow: hidden;
+}
+#storeIcon image{
+  width: 120rpx;
+  margin-top: -140rpx;
+  margin-left: 16rpx;
+}
+#storeInfo view:nth-child(2){
+  margin-left: 20%;
+  margin-top: 20rpx;
+  height: 160rpx;
+  width: 55%;
+  border-right: 1px solid #eee;
+  overflow: hidden;
+}
+#storeInfo view:nth-child(2) text:first-child{
+  margin-top: 20rpx;
+}
+#storeInfo view:nth-child(2) text{
+  display: block;
+  font-size: 30rpx;
+  color: #13252E;
+}
+#storeInfo view:nth-child(3){
+  margin-left: 75%;
+  margin-top: -180rpx;
+  width: 20%;
+  height: 200rpx;
+}
+#storeInfo view:nth-child(3) text:first-child{
+  margin-top: 20rpx;
+}
+#storeInfo view:nth-child(3) text{
+  display: block;
+  text-align: right;
+  font-size: 24rpx;
+  color: #13252E;
+}
+.flex-box{
+  width: 100%;
+  height: 200rpx;
+  border: 1px solid red;
+  display: flex;
+  flex-direction:row;
+}
+.flex-box view:first-child{
+  width: 20%;
+  height:200rpx;
+  background-color: blue;
+}
+.flex-box view:nth-child(2){
+  width: 55%;
+  height:200rpx;
+  background-color: red;
+}
+.flex-box view:nth-child(3){
+  width: 20%;
+  height:200rpx;
+  background-color: green;
+}

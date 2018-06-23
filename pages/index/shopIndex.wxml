@@ -1,0 +1,35 @@
+<!shopIndex.wxml-->
+<view class="container">
+  <view>
+    <cover-image src="{{titleImg}}"></cover-image>
+  </view>
+  <view class="search">
+    <view class="searchBar">  
+      <icon class="searchIcon" size='15' type='search'>
+      </icon>  
+      <input class=""  placeholder="输入商品名称，搜索商品" value="{{searchValue}}"/>  
+    </view>
+  </view>
+  <view id="storeInfo">
+    <view id='storeIcon'>
+      <image src="{{storeImg}}" mode='aspectFit'></image>
+    </view>
+    <view>
+      <text>{{storeCode}}</text>
+      <text>{{storeLocation}}</text>
+    </view>
+    <view>
+      <text>{{fansDes}}</text>
+      <text>{{fansNum}}</text>
+      <text>{{shopNumDes}}</text>
+      <text>{{shopNum}}</text>
+    </view>
+  </view>
+  <view class="flex-box">
+      <view class="flex-view-item">1</view>
+      <view class="flex-view-item">2</view>
+      <view class="flex-view-item">3</view>
+  </view>
+
+</view>
+  

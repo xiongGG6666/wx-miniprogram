@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/index/shopIndex",
     "pages/index/home",
+    "pages/index/index",
     "pages/logs/logs",
     "pages/web/detail",
     "pages/index/detail"
@@ -9,7 +10,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#efefef",
-    "navigationBarTitleText": "帅",
+    "navigationBarTitleText": "首页",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -19,14 +20,14 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/index/shopIndex",
         "text": "首页",
         "iconPath": "img/home.png",
         "selectedIconPath": "img/home-sel.png"
       },
       {
         "pagePath": "pages/index/index",
-        "text": "我的",
+        "text": "购物车",
         "iconPath": "img/shopCar.png",
         "selectedIconPath": "img/shopCar-sel.png"
       },
