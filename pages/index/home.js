@@ -39,6 +39,7 @@ Page({
       }
     });
     if (app.globalData.userInfo) {
+      console.log(app.globalData.userInfo);
       this.setData({
         userInfo: app.globalData.userInfo,
         hasUserInfo: true
@@ -57,6 +58,7 @@ Page({
       // 在没有 open-type=getUserInfo 版本的兼容处理
       wx.getUserInfo({
         success: res => {
+          console.log(res);
           app.globalData.userInfo = res.userInfo
           this.setData({
             userInfo: res.userInfo,

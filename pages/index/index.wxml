@@ -6,7 +6,7 @@
       <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}" />
     </view>
   </view>
-  <view class='sousuo'>搜索</view>
+  <!-- <view class='sousuo'>搜索</view> -->
 </view>
 <!--搜索 end  -->
 <!--产品 start  -->
