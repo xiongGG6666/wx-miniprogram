@@ -10,6 +10,44 @@
 <view class='article'>
 <view class="page_column">
   <view class='product_list '>
+   
+  <view id='11'  class='page_column item' catchtap="goDetail">
+      <view class='pic'>
+        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
+      </view>
+      <view class='title'>
+        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
+      </view>      
+      <view class='content'>
+         
+        <view class='page_column left_content'>
+            <text>预售时间：6月23日-6月24日</text>
+            <text>提货时间：6月25日</text>
+            <view>
+              <text>¥7.5</text>
+              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
+            </view>
+        </view>
+        <view class='page_column '>
+            <view class='row'>
+            <text>已售</text>
+            <text style='color:#ed1991'>100</text>
+            <text>份/ 限量6000份</text>
+            </view>
+            <view>
+              <button class='go_cat' catchtap="goCat" id="1">
+              <text>加入购物车</text></button>
+            </view>
+        </view>
+       
+      </view>
+      <view class='footer'>
+          <text>涛哥、</text>
+          <text>大王、</text>
+          <text>小姐姐、</text>
+          <text style='color:#999;'>等刚购买了此商品。</text>
+      </view>
+    </view>
     <view class='page_column item'>
       <view class='pic'>
         <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
@@ -30,358 +68,11 @@
         <view class='page_column '>
             <view class='row'>
             <text>已售</text>
-            <text style='color:red'>100</text>
+            <text style='color:#ed1991'>100</text>
             <text>份/ 限量6000份</text>
             </view>
             <view>
-              <button class='go_cat'>
-              <text>加入购物车</text></button>
-            </view>
-        </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-
-     <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:red'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat'>
-              <text>加入购物车</text></button>
-            </view>
-        </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-
-     <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:red'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat'>
-              <text>加入购物车</text></button>
-            </view>
-        </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-
-     <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:red'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat'>
-              <text>加入购物车</text></button>
-            </view>
-        </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-
-     <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:red'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat'>
-              <text>加入购物车</text></button>
-            </view>
-        </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-
-
-     <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:red'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat'>
-              <text>加入购物车</text></button>
-            </view>
-        </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-
-
-     <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:red'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat'>
-              <text>加入购物车</text></button>
-            </view>
-        </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-
-
-     <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:red'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat'>
-              <text>加入购物车</text></button>
-            </view>
-        </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-
-
-     <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:red'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat'>
-              <text>加入购物车</text></button>
-            </view>
-        </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-
-
-     <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:red'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat'>
+              <button class='go_cat' catchtap="goCat" id="1">
               <text>加入购物车</text></button>
             </view>
         </view>

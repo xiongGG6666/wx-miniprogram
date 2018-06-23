@@ -4,7 +4,10 @@
     "pages/index/home",
     "pages/logs/logs",
     "pages/web/detail",
-    "pages/index/detail",
+    "pages/index/shop_detail",
+      "pages/index/detail",
+        
+    
     "pages/search/search"
   ],
   "window": {
