@@ -1,3 +1,4 @@
+<!--搜索 start  -->
 <view class='head_row' bindtap="suo">
   <view class="search">
     <view class="df search_arr">
@@ -5,86 +6,55 @@
       <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}" />
     </view>
   </view>
-  <view class='sousuo'>搜索</view>
+  <!-- <view class='sousuo'>搜索</view> -->
 </view>
+<!--搜索 end  -->
+<!--产品 start  -->
 <view class='article'>
-<view class="page_column">
-  <view class='product_list '>
-   
-  <view id='11'  class='page_column item' catchtap="goDetail">
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
-            <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
-            </view>
+  <view class="page_column">
+    <view class='product_list '>
+      <view wx:for="{{productList}}" wx:key="{{item.id}}" wx:for-index="index" id='{{item.id}}' class='page_column item' catchtap="goDetail">
+        <view class='pic'>
+          <image src='{{item.headImg}}'></image>
         </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:#ed1991'>100</text>
-            <text>份/ 限量6000份</text>
-            </view>
-            <view>
-              <button class='go_cat' catchtap="goCat" id="1">
-              <text>加入购物车</text></button>
-            </view>
+        <view class='title page_column'>
+          <text>{{item.title}}</text>
+          <text style='color:#999'>{{item.subtitle}}</text>
         </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
-          <text style='color:#999;'>等刚购买了此商品。</text>
-      </view>
-    </view>
-    <view class='page_column item'>
-      <view class='pic'>
-        <image src='http://apimagev.frxs.cn/productAdImg/20180622/100percent_1dde7a42-668b-4130-9168-aa9b8a0b65b01529661070768.jpg'></image>
-      </view>
-      <view class='title'>
-        <text>绿精灵盆栽 约H15X10CM  90号塑料花盆  1盆</text>
-      </view>      
-      <view class='content'>
-         
-        <view class='page_column left_content'>
-            <text>预售时间：6月23日-6月24日</text>
-            <text>提货时间：6月25日</text>
+        <view class='content'>
+
+          <view class='page_column left_content'>
+            <text>{{item.resaleTime}}</text>
+            <text>{{item.acceptTime}}</text>
             <view>
-              <text>¥7.5</text>
-              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>9.0</text>
+              <text>¥{{item.discountPrice}}</text>
+              <text style='text-decoration:line-through;margin-left:10rpx;color:#999'>{{item.price}}</text>
             </view>
-        </view>
-        <view class='page_column '>
-            <view class='row'>
-            <text>已售</text>
-            <text style='color:#ed1991'>100</text>
-            <text>份/ 限量6000份</text>
+          </view>
+          <view class='page_column '>
+            <view class='row' wx:if="{{item.isSellout==false}}">
+              <text>已售</text>
+              <text style='color:#ed1991'>{{item.soldNum}}</text>
+              <text>份/ 限量{{item.repertoryNum}}份</text>
             </view>
+            <view wx:else style='text-align: center;font-size:16px;'>已售罄 </view>
+  
             <view>
               <button class='go_cat' catchtap="goCat" id="1">
-              <text>加入购物车</text></button>
+                <text>加入购物车</text>
+              </button>
             </view>
+          </view>
+
         </view>
-       
-      </view>
-      <view class='footer'>
-          <text>涛哥、</text>
-          <text>大王、</text>
-          <text>小姐姐、</text>
+        <view class='footer'>
+          <view wx:for='{{item.alreadySold}}' wx:key="{{item.id it}}" wx:for-index="in" wx:for-item="it">
+            <text>{{it}}、</text>
+          </view>
           <text style='color:#999;'>等刚购买了此商品。</text>
+        </view>
       </view>
     </view>
   </view>
 </view>
-</view>
+<!--产品 end  -->

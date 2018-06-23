@@ -14,12 +14,15 @@
 
 }
 .search{  
-  width: 80%;  
+  width: 100%;  
+ 
 }  
 .search_arr {  
   border: 1px solid #d0d0d0;  
-  border-radius: 10rpx;  
+  border-radius: 16px;  
   margin-left: 20rpx;  
+  margin-right: 20rpx;  
+
 }  
 .search_arr input{  
   margin-left: 60rpx;  
@@ -55,7 +58,7 @@
   left: 0;  
   width: 100%;  
   z-index: 999;
-  background-color: white;
+   background-color: white; 
 }  
 .article{
   margin-top:44px;
@@ -84,9 +87,10 @@
 .product_list .item{
     border-bottom: 10px  solid #EFEFEF;
     padding: 20rpx;
-
-
+  
+ 
 }
+ 
 .title text{
   font-size: 14px;
 }

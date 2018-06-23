@@ -1,28 +1,18 @@
-// pages/index/shop.js
+// pages/index/mycart.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    id:''
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options);
-    var id = options.id;
-    this.setData({
-      id:id
-    });
-    wx.showToast({
-      title: '获取到的id=' + id,
-      icon: 'success',
-      duration: 2000
-    })
-
+  
   },
 
   /**

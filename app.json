@@ -6,10 +6,9 @@
     "pages/logs/logs",
     "pages/web/detail",
     "pages/index/shop_detail",
-      "pages/index/detail",
-        
-    
-    "pages/search/search"
+    "pages/index/detail",
+    "pages/search/search",
+    "pages/index/mycart"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -36,7 +35,10 @@
         "text": "购物车",
         "iconPath": "img/shopCar.png",
         "selectedIconPath": "img/shopCar-sel.png"
-      },
+        "pagePath": "pages/index/mycart",
+        "text": "购物车",
+        "iconPath": "img/cart.png",
+        "selectedIconPath": "img/cart-sel.png"      },
       {
         "pagePath": "pages/index/home",
         "text": "我的",
