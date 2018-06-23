@@ -16,9 +16,9 @@ Page({
         repertoryNum: '9000',
         discountPrice: '90.99',
         price: '19.99',
+        isSellout:false,
         headImg:'http://apimagev.frxs.cn/productAdImg/20180620/100percent_aa4e3674-34c8-41c0-9342-5678d14b51e51529487868814.jpg',
         alreadySold: ['大王', '涛哥', '莎莎']
-
       }, {
         id: 200,
         title: '基地直采本地青丝瓜 约1.4至1.6斤/份',
