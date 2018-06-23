@@ -5,12 +5,18 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/web/detail",
-    "pages/index/detail"
+    "pages/index/shop_detail",
+      "pages/index/detail",
+        
+    
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#efefef",
     "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "社区电商",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
