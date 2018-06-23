@@ -1,2 +1,12 @@
 <!--pages/index/shop.wxml-->
-<text>id为:{{id}}</text>
+<view class='container'>
+  <view class="swiper-tab">
+      <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">基本信息</view>
+      <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">购买记录</view>
+  </view>
+
+  <swiper current="{{currentTab}}" duration="300"  bindchange="swiperTab">
+      <swiper-item ><view>基本信息</view></swiper-item>
+      <swiper-item><view>购买记录</view></swiper-item>
+  </swiper>
+</view>
