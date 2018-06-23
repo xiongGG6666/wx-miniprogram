@@ -10,25 +10,20 @@
       <input class=""  placeholder="输入商品名称，搜索商品" value="{{searchValue}}"/>  
     </view>
   </view>
-  <view id="storeInfo">
+  <view id="storeInfo" wx:for="{{storeInfoData}}">
     <view id='storeIcon'>
-      <image src="{{storeImg}}" mode='aspectFit'></image>
+      <image src="{{item.storeImg}}" mode='aspectFit'></image>
     </view>
     <view>
-      <text>{{storeCode}}</text>
-      <text>{{storeLocation}}</text>
+      <text>{{item.storeCode}}</text>
+      <text>{{item.storeLocation}}</text>
     </view>
     <view>
-      <text>{{fansDes}}</text>
-      <text>{{fansNum}}</text>
-      <text>{{shopNumDes}}</text>
-      <text>{{shopNum}}</text>
+      <text>{{item.fansDes}}</text>
+      <text>{{item.fansNum}}</text>
+      <text>{{item.shopNumDes}}</text>
+      <text>{{item.shopNum}}</text>
     </view>
-  </view>
-  <view class="flex-box">
-      <view class="flex-view-item">1</view>
-      <view class="flex-view-item">2</view>
-      <view class="flex-view-item">3</view>
   </view>
 
 </view>

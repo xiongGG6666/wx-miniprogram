@@ -6,13 +6,16 @@ Page({
     ],
     indicatorDots: true,
     searchValue:"",
-    storeImg:"../../img/store.png",
-    storeCode:"50012020",
-    storeLocation:"岳麓区枫林绿洲有滋零食店",
-    fansDes:"粉丝数",
-    fansNum:52,
-    shopNumDes:"购买指数",
-    shopNum:788
+    storeInfoData:[{
+      storeImg: "../../img/store.png",
+      storeCode: "50012020",
+      storeLocation: "岳麓区枫林绿洲有滋零食店",
+      fansDes: "粉丝数",
+      fansNum: 52,
+      shopNumDes: "购买指数",
+      shopNum: 788
+    }]
+  
   },
   onLoad: function (options) {
     // Do some initialize when page load.

@@ -16,29 +16,27 @@
   font-size: 26rpx;
 }
 #storeInfo{
+  width: 100%;
   height: 200rpx;
-  overflow: hidden;
+  display: flex;
+  flex-direction:row;
 }
-#storeIcon{
-  margin: 0rpx;
-  float: left;
-  position: absolute;
-  width: 20%;  
-  height: 200rpx;
-  overflow: hidden;
+#storeInfo view:first-child{
+  width: 20%;
+  height:200rpx;
+  position: absolute; 
 }
-#storeIcon image{
+#storeInfo view:first-child image{
   width: 120rpx;
   margin-top: -140rpx;
   margin-left: 16rpx;
 }
 #storeInfo view:nth-child(2){
+  width: 55%;
+  height:160rpx;
   margin-left: 20%;
   margin-top: 20rpx;
-  height: 160rpx;
-  width: 55%;
   border-right: 1px solid #eee;
-  overflow: hidden;
 }
 #storeInfo view:nth-child(2) text:first-child{
   margin-top: 20rpx;
@@ -49,10 +47,8 @@
   color: #13252E;
 }
 #storeInfo view:nth-child(3){
-  margin-left: 75%;
-  margin-top: -180rpx;
   width: 20%;
-  height: 200rpx;
+  height:200rpx;
 }
 #storeInfo view:nth-child(3) text:first-child{
   margin-top: 20rpx;
@@ -63,25 +59,6 @@
   font-size: 24rpx;
   color: #13252E;
 }
-.flex-box{
-  width: 100%;
-  height: 200rpx;
-  border: 1px solid red;
-  display: flex;
-  flex-direction:row;
-}
-.flex-box view:first-child{
-  width: 20%;
-  height:200rpx;
-  background-color: blue;
-}
-.flex-box view:nth-child(2){
-  width: 55%;
-  height:200rpx;
-  background-color: red;
-}
-.flex-box view:nth-child(3){
-  width: 20%;
-  height:200rpx;
-  background-color: green;
+#storeInfo view:nth-child(3) text:nth-child(even){
+  color: #d4237a;
 }
