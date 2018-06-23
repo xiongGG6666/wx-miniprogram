@@ -4,12 +4,13 @@
     "pages/index/home",
     "pages/logs/logs",
     "pages/web/detail",
-    "pages/index/detail"
+    "pages/index/detail",
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#efefef",
-    "navigationBarTitleText": "帅",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "社区电商",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
