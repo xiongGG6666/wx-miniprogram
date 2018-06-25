@@ -1,1 +1,21 @@
-/* pages/index/shop.wxss */
+.swiper-tab{
+    width: 100%;
+    border-bottom: 2rpx solid #ccc;
+    text-align: center;
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.swiper-tab-item{
+    width: 30%; 
+    color:#434343;
+}
+.active{
+    color:#d4237a;
+    border-bottom: 4rpx solid #d4237a;
+}
+swiper{
+  text-align: center;
+}
