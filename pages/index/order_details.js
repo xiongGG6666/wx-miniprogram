@@ -1,29 +1,23 @@
-// pages/index/shop.js
+// pages/index/orderDetails.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    id:''
+  
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(options);
-    var id = options.id;
+    var type = options.type;
     wx.showToast({
-      title: '获取到的id=' + id,
+      title: '获取到的id=' + type,
       icon: 'success',
       duration: 2000
     });
-    this.setData({
-      id:id
-    });
-   
-
   },
 
   /**
