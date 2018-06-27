@@ -25,7 +25,14 @@ page{
   align-self:flex-end
 }
 .userinfo-nickname{
-  margin-bottom: 20rpx;
+  margin-bottom: 10rpx;
+}
+.userinfo-right{
+  align-self:center;
+flex-grow:1;
+text-align:right;
+margin-right:10px;
+
 }
 .myList{
   margin: 20rpx;
